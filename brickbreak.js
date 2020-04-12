@@ -1,9 +1,12 @@
+// get the canvas object and context
 var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
 
+// x and y positions of the ball
 var x = canvas.width / 2;
 var y = canvas.height - 30;
 
+// direction of the ball
 var dx = 2;
 var dy = -2;
 
